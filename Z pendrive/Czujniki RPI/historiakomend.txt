@@ -1,0 +1,589 @@
+    1  tightvncserver
+    2  sudo apt-get install git-core
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  git clone git://git.drogon.net/wiringPi
+    6  cd wiringPi
+    7  git pull origin
+    8  cd wiringPi
+    9  cd wiringPI
+   10  ./build
+   11  git pull origin
+   12  ./build
+   13  sudo .build
+   14  sudo ./build
+   15  cd wiringPi
+   16  ./build
+   17  sudo modprobe i2c-bcm2708
+   18  sudo modprobe i2c-dev
+   19  cd /etc/modprobe.d/
+   20  sudo nano raspi-blacklist.conf
+   21  sudo modprobe i2c-bcm2708
+   22  sudo modprobe i2c-dev
+   23  cd /etc/
+   24  sudo nano modules
+   25  cd /etc/modprobe.d/raspi-blacklist.conf
+   26  cd /etc/modprobe.d/
+   27  sudo nano raspi-blacklist.conf
+   28  sudo apt-get install pthon-smbus i2c-tools
+   29  i2cdetect -y 1
+   30  sudo i2cdetect -y 1
+   31  tightvncserver
+   32  i2cdetect -y 1
+   33  cd /usr/src
+   34  git clone https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
+   35  sudo apt-get install python-smbus i2c-tools
+   36  i2cdetect -y 1
+   37  i2cdetect
+   38  i2cdetect -y
+   39  i2cdetect -l
+   40  i2cdetect -F I2CBUS
+   41  sudo modprobe i2c-bcm2708
+   42  sudo modprobe i2c-dev
+   43  cd /etc/
+   44  sudo nano modules
+   45  cd /etc/modprobe.d/
+   46  sudo nano /raspi-blacklist.conf
+   47  sudo apt-get install python-smbus i2c-tools
+   48  i2cdetect -y 1
+   49  cd /usr/src
+   50  git clone https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
+   51  sudo git clone https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
+   52  cd Adafruit-Raspberry-Pi-Python-Code/Adafruit_BMP085
+   53  cd /home/pi/Desktop/Czujniki
+   54  sudo python cis.py
+   55  cd Adafruit-Raspberry-Pi-Python-Code/
+   56  cd /usr/src/Adafruit-Raspberry-Pi-Python-Code/
+   57  cd /usr/src/Adafruit-Raspberry-Pi-Python-Code/Adafruit_BMP085
+   58  suod i2cdetect -y 1
+   59  sudo i2cdetect -y 1
+   60  sudo git clone https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
+   61  cd /home/pi/Desktop/Czujniki
+   62  sudo python lux.py
+   63  sudo i2cdetect -y 0
+   64  sudo nano /etc/modprobe.d/raspi-blacklist.conf
+   65  sudo nano /etc/modules
+   66  sudo apt-get install i2c-tools
+   67  sudo adduser pi i2c
+   68  sudo shutdown -r now
+   69  cd /home/pi/Desktop/Czujniki
+   70  sudo python lux.py
+   71  sudo i2cdetect -y 0
+   72  sudo i2cdetect -y 1
+   73  sudo apt-get install python-smbus
+   74  sudo apt-get install git-core
+   75  cd /usr/src
+   76  sudo git clone git://git.drogon.net/wiringPi
+   77  cd wiringPi
+   78  ./build
+   79  gpio readall
+   80  sudo apt-get install git-core
+   81  cd /usr/src
+   82  sudo git clone git://git.drogon.net/wiringPi
+   83  cd wiringPi
+   84  sudo ./build
+   85  cp/usr/src/wiringPi/wiringPi/*.h /usr/include/
+   86  cp /usr/src/wiringPi/wiringPi/*.h /usr/include/
+   87  sudo cp /usr/src/wiringPi/wiringPi/*.h /usr/include/
+   88  cd /usr/src
+   89  sudo git clone https://github.com/paszczak000/DHT21-AM2301.git
+   90  cd DHT21-AM23-1/
+   91  cd DHT21-AM2301/
+   92  make
+   93  sudo make
+   94  ./am2301
+   95  sudo ./am2301
+   96  cd /home/pi/Desktop
+   97  sudo ./am2301
+   98  cd /home/pi/Desktop/Czujniki
+   99  sudo python tiw.py
+  100  sudo ./am2301
+  101  sudo i2cdetect -y 1
+  102  sudo apt-get install python-smbus
+  103  sudo apt-get install i2c-tools
+  104  sudo raspi-config
+  105  sudo nano /etc/modules
+  106  cd /etc/modprobe.d/
+  107  sudo nano raspi-blacklist.conf
+  108  sudo nano /etc/modprobe.d/raspi-blacklist.conf
+  109  sudo nano /boot/config.tht
+  110  sudo nano /boot/config.txt
+  111  tightvncserver
+  112  sudo i2cdetect -y 1
+  113  cd /home/pi/Desktop/Czujniki
+  114  sudo python cis.py
+  115  cd /home/pi/Desktop/Czujniki
+  116  sudo python cis.py
+  117  cd usr/src
+  118  cd /usr/src
+  119  sudo git clone https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code.git
+  120  cd /usr/src
+  121  sudo git clone https://github.com/adafruit/Adafruit-BMP085-Library
+  122  cd /usr/src/Adafruit-BMP085-Library/
+  123  sudo ./Adafruit_BMP085
+  124  sudo ./Adafruit_BMP085.cpp
+  125  sudo ./Adafruit_BMP085.h
+  126  sudo Adafruit_BMP085.cpp
+  127  cd /home/pi/Desktop/Czujniki
+  128  sudo python cis.py
+  129  cd /usr/src
+  130  sudo git clone https://github.com/adafruit/adafruit_Python_BMP
+  131  cd /usr/src/adafruit_Python_BMP/Adafruit_BMP
+  132  sudo python BMP085.py
+  133  cd /usr/src/adafruit_Python_BMP/
+  134  sudo python setup.py
+  135  cd /usr/src/adafruit_Python_BMP/Adafruit_BMP
+  136  sudo python BMP085.py
+  137  cd /usr/src/adafruit_Python_BMP/examples/
+  138  sudo python simpletest.py
+  139  cd /home/pi/Desktop/Czujniki
+  140  sudo python cis.py
+  141  cd /home/pi/Desktop/Czujniki
+  142  cd /home/pi/Desktop/
+  143  sudo python simpletest
+  144  sudo python simpletest.py
+  145  cd /home/pi/Desktop/Czujniki
+  146  sudo python lux.py
+  147  cd /home/pi/Desktop/TEST
+  148  sudo python dataxa.py
+  149  cd /home/pi/Desktop/Czujniki
+  150  ./am2301
+  151  sudo ./am2301
+  152  sudo python tiw.py
+  153  sudo passwd root
+  154  sudo nano /etc/network/interfaces
+  155  cd /home/pi/Desktop
+  156  sudo python simpletest.py
+  157  sudo i2cdetect -y 1
+  158  mkdir /pi/home/Desktop/BMP180Code
+  159  mkdir /home/pi/Desktop/BMP180Code
+  160  cd /home/pi/Desktop/BMP180Code
+  161  sudo git clone https://github.com/adafruit/Adafruit_Python_BMP.git
+  162  cd Adafruit_Python_BMP
+  163  sudo python setup.py install
+  164  cd /home/pi/Desktop/BMP180Code/Adafruit_Python_BMP
+  165  cd examples
+  166  sudo python simpletest.py
+  167  cd /usr/src/adafruit_Python_BMP/
+  168  sudo python ez_setup.py
+  169  setup.py
+  170  sudo setup.py
+  171  sudo python setup.py
+  172  cd Adafruit_BMP
+  173  sudo python BMP085.py
+  174  sudo python __init__.py
+  175  cd /usr/src/adafruit_Python_BMP/examples
+  176  sudo python simpletest.py
+  177  sudo python google_spreadsheet.py
+  178  cd /home/pi/Desktop/Czujniki
+  179  sudo python cis.py
+  180  sudo python cis2.py
+  181  sudo python lux.py
+  182  sudo python tiw.py
+  183  sudo raspi-config
+  184  sudo su
+  185  mkdir /home/pi/strona
+  186  cd /home/pi/strona
+  187  sudo apt-get install apache2 -y
+  188  hostname -I
+  189  sudo nano /var/www/index.html
+  190  sudo nano /var/www/html/index.html
+  191  sudo rm /var/www/html/index.html
+  192  sudo nano /var/www/html/index.html
+  193  sudo apt-get install php5 libapache2-mod-php5 -y
+  194  sudo nano /var/www/example.php
+  195  sudo nano /var/www/html/example.php
+  196  cd /var/www/example.php
+  197  cd /var/www/
+  198  sudo rm example.php
+  199  sudo apt-get install mysql-server php5-mysql -y
+  200  arch
+  201  cal
+  202  date
+  203  du
+  204  find
+  205  find sql
+  206  find *sql
+  207  find *sql*
+  208  find simpletest
+  209  find simpletest.py
+  210  finger!
+  211  finger
+  212  hello
+  213  hello s
+  214  kernelversion
+  215  mysql -u root -p
+  216  cp -r /home/pi/Desktop/one /home/pi/Desktop/two
+  217  cp -r /media/pi/USB DISK/RPI /var/www/html
+  218  cp -r /media/pi/USB DISK/RPi/RPI /var/www/html
+  219  sudo cp -r /media/pi/USB DISK/RPi/RPI /var/www/html
+  220  cp -r /media/pi/USB_DISK/RPi/RPI /var/www/html
+  221  cp -r /media/pi/USB DISK/RPi/RPI /var/www/html
+  222  cp -r /media/pi/USB_DISK/RPi/RPI /var/www/html
+  223  cp -r /media/pi/USB_DISK/RPi/RPI/ /var/www/html
+  224  cp -r /media/pi/USB_DISK/RPi /home/pi/Desktop/one
+  225  cp -r /home/pi/Desktop/one/RPI /var/www/html
+  226  sudo cp -r /home/pi/Desktop/one/RPI /var/www/html
+  227  -u root -p
+  228  mysql -u root -p
+  229  cd /var/src/www/html
+  230  cd /var/www/html/RPI
+  231  ls
+  232  ls -l
+  233  sudo nano connect.php
+  234  cd /var/www/html/RPI
+  235  sudo nano connect.php
+  236  sudo raspi-config
+  237  cd /home/pi/Desktop/Czujniki
+  238  sudo python cis.py
+  239  sudo python cis2.py
+  240  sudo python lux.py
+  241  sudo python tiw.py
+  242  mysql -u root -p
+  243  sudo nano /boot/config.txt
+  244  reboot
+  245  sudo nano /boot/config.txt
+  246  reboot
+  247  sudo nano /boot/config.txt
+  248  gunzip MySQL-python-1.2.4b4.tar.gz
+  249  cd /home/pi/Desktop/pythonsql
+  250  sudo gunzip MySQL-python-1.2.4b4.tar.gz
+  251  tar -xvf MySQL-python-1.2.4b4.tar
+  252  cd MySQL-python-1.2.4b4
+  253  sudo python setup.py build
+  254  sudo python setup.py install
+  255  sudo gunzip MySQL-python-1.2.4b4.tar.gz
+  256  mysql_config
+  257  cd /home/pi/Desktop/pythonsql
+  258  sudo gunzip MySQL-python-1.2.4b4.tar
+  259  sudo gunzip MySQL-python-1.2.4b4.tar.gz
+  260  sudo tar -xvf MySQL-python-1.2.4b4.tar
+  261  cd MySQL-python-1.2.4b4
+  262  sudo python setup.py build
+  263  sudo python3 setup.py build
+  264  sudo python3 setup.py install
+  265  apt-get update python3
+  266  apt-get update python
+  267  sudo apt-get update python3
+  268  sudo apt-get update install python3
+  269  sudo apt-get update install python
+  270  sudo apt-get install python3
+  271  cd /home/pi/Desktop/pythonsql/MySQL-python-1.2.4b4
+  272  sudo python2 setup.py build
+  273  sudo python3 setup.py build
+  274  sudo python2 setup.py install
+  275  apt-get install python-pip
+  276  sudo apt-get install python-pip
+  277  sudo apt-get install python-dev libmysqlclient-dev
+  278  sudo apt-get install python-pip
+  279  sudo pip install MySQL-python
+  280  cd /home/pi/Desktop/
+  281  sudo python a.py
+  282  sudo python b.py
+  283  sudo python3 b.py
+  284  mysql -u root -p
+  285  reboot
+  286  yum install MySQL-python -y
+  287  sudo yum install MySQL-python -y
+  288  sudo pip install MySQL-python
+  289  sudo apt-get install python-pip python-dev libmysqlclient-dev
+  290  mysql -u root -p
+  291  cd /home/pi/Desktop/
+  292  sudo python a.py
+  293  sudo python3 b.py
+  294  sudo python a.py
+  295  sudo python3 b.py
+  296  ccc.py
+  297  sudo python ccc.py
+  298  sudo python2 ccc.py
+  299  sudo python3 ccc.py
+  300  sudo python ccc.py
+  301  sudo python ddd.py
+  302  mysql -u root -p
+  303  cd /home/pi/Desktop
+  304  sudo python eee.py
+  305  sudo python fff.py
+  306  shoutdown
+  307  shutdown
+  308  sudo shutdown
+  309  cd /home/pi/Desktop
+  310  sudo python fff.py
+  311  mysql -u root -p
+  312  cd /home/pi/Desktop
+  313  sudo python moze.py
+  314  sudo python ddd.py
+  315  sudo python moze.py
+  316  cd /home/pi/Desktop
+  317  sudo python moze.py
+  318  mysql -u root -p
+  319  cd /home/pi/Desktop/TEST
+  320  sudo python dataxa.py
+  321  cd /home/pi/Desktop
+  322  sudo python luxsecondsql1.py
+  323  sudo python aba.py
+  324  sudo python luxsecondsql1.py
+  325  sudo cp /home/pi/Desktop/one/RPIv2/wyniki.php /var/www/html/RPI/
+  326  cd /var/www/html/RPI/
+  327  sudo nano wyniki.php
+  328  sudo nano connect.php
+  329  cd /home/pi/Desktop
+  330  sudo python luxsecondsql1.py
+  331  cd /home/pi/Desktop
+  332  sudo python luxsecondsql1.py
+  333  cd /var/www/html/RPI/
+  334  sudo nano wyniki.php
+  335  cd /home/pi/Desktop
+  336  sudo python luxsecondsql1.py
+  337  mysql -u root -p
+  338  cd /home/pi/Desktop
+  339  sudo python luxsecondsql1.py
+  340  shout
+  341  cd /home/pi/Desktop
+  342  sudo python luxsecondsql1.py
+  343  cd /home/pi/Desktop
+  344  sudo python luxsecondsql1.py
+  345  mysql -u root -p
+  346  cd /home/pi/Desktop
+  347  cd Czujniki
+  348  sudo python cis2.py
+  349  cd /home/pi/Desktop
+  350  sudo python luxsecondsql1.py
+  351  sudo python simpletest.py
+  352  sudo python cissecondsql1.py
+  353  sudo python simpletest.py
+  354  sudo python cissecondsql1.py
+  355  mysql -u root -p
+  356  gpio -v
+  357  gpio readall
+  358  mysql -u root -p
+  359  cd /home/pi/Desktop
+  360  sudo python cissecondsql1.py
+  361  cd /home/pi/Desktop
+  362  cd Czujniki
+  363  sudo python tiw.py
+  364  cd /home/pi/Desktop/C
+  365  sudo ./a.c
+  366  sudo ./a
+  367  sudo gcc a
+  368  sudo gcc a.c
+  369  sudo ./a
+  370  sudo ./a.out
+  371  sudo gcc a.c
+  372  sudo ./a.out
+  373  sudo gcc a.c
+  374  sudo ./a.out
+  375  cd /home/pi/Desktop/Czujniki/
+  376  sudo python tiw.py
+  377  sudo gcc am2301.c
+  378  sudo python tiw.py
+  379  sudo gcc am2301.c -lwiringPi
+  380  sudo ./ am2301.c 
+  381  sudo ./am2301.c 
+  382  sudo ./am2301
+  383  cd /home/pi/Desktop/C
+  384  sudo gcc am2301.c -lwiringPi
+  385  sudo gcc am2301.c
+  386  sudo ./a.out
+  387  sudo gcc am2301.c
+  388  sudo gcc am2301.c -lwiringPi
+  389  sudo ./a.out
+  390  sudo gcc am2301.c -lwiringPi
+  391  sudo ./a.out
+  392  sudo gcc am2301.c -lwiringPi
+  393  sudo ./a.out
+  394  sudo gcc am2301.c -lwiringPi
+  395  sudo gcc a.c
+  396  sudo ./a.out
+  397  sudo gcc am2301.c -lwiringPi
+  398  sudo ./a.out
+  399  sudo gcc am2301.c -lwiringPi
+  400  sudo ./a.out
+  401  sudo gcc am2301.c -lwiringPi
+  402  sudo ./a.out
+  403  sudo gcc am2301.c -lwiringPi
+  404  sudo ./a.out
+  405  sudo gcc am2301.c -lwiringPi
+  406  sudo ./a.out
+  407  sudo gcc am2301.c -lwiringPi
+  408  sudo ./a.out
+  409  sudo gcc am2301.c -lwiringPi
+  410  sudo ./a.out
+  411  sudo gcc am2301.c -lwiringPi
+  412  sudo ./a.out
+  413  sudo gcc am2301.c -lwiringPi
+  414  sudo ./a.out
+  415  sudo gcc am2301.c -lwiringPi
+  416  sudo ./a.out
+  417  sudo gcc am2301.c -lwiringPi
+  418  sudo ./a.out
+  419  sudo gcc am2301.c -lwiringPi
+  420  sudo ./a.out
+  421  sudo gcc am2301.c -lwiringPi
+  422  sudo ./a.out
+  423  sudo gcc am2301.c -lwiringPi
+  424  sudo ./a.out
+  425  sudo gcc am2301.c -lwiringPi
+  426  sudo ./a.out
+  427  sudo gcc am2301.c -lwiringPi
+  428  sudo ./a.out
+  429  sudo gcc am2301.c -lwiringPi
+  430  sudo ./a.out
+  431  cd /home/pi/Desktop/TIW
+  432  sudo gcc am2301.c -lwiringPi
+  433  sudo ./a.out
+  434  sudo gcc am2301.c -lwiringPi
+  435  cd /home/pi/Desktop/TIW
+  436  sudo gcc am2301.c -lwiringPi
+  437  sudo ./a.out
+  438  sudo gcc am2301.c -lwiringPi
+  439  sudo ./a.out
+  440  cd /home/pi/Desktop/TIW
+  441  sudo python tiwsecondsql1.py
+  442  cd /home/pi/Desktop/TIW
+  443  sudo gcc am2301.c -lwiringPi
+  444  cd /home/pi/Desktop/TIW
+  445  sudo python tiwsecondsql1.py
+  446  cd /var/www/html/RPI
+  447  sudo nano wyniki.php
+  448  cd /home/pi/Desktop/TIW
+  449  sudo python tiwsecondsql1.py
+  450  mysql -u root -p
+  451  cd /home/pi/Desktop/LUX
+  452  sudo python luxsecondsql1.py
+  453  cd /home/pi/Desktop/CIS
+  454  sudo python cissecondsql1.py
+  455  cd /home/pi/Desktop/TIW
+  456  sudo python tiwsecondsql1.py
+  457  cd /home/pi/Desktop/LUX
+  458  sudo python luxsecondsql1.py
+  459  cd /var/www/html
+  460  /RPI
+  461  cd RPI
+  462  sudo nano winiki.php
+  463  sudo nano winik.php
+  464  sudo nano winiki.php
+  465  cd /var/www/html/RPI
+  466  sudo nano wyniki.php
+  467  sudo apt-get install ntpdate
+  468  sudo raspi-config
+  469  cd /home/pi/Desktop/TIW
+  470  sudo python tiwsecondsql1.py
+  471  cd /home/pi/Desktop/CIS
+  472  sudo python cissecondsql1.py
+  473  mysql -u root -p
+  474  cd /home/pi/Desktop/LUX
+  475  sudo python luxsecondsql1.py
+  476  sudo raspi-config
+  477  cd /home/pi/Desktop/LUX
+  478  sudo python testsql.py
+  479  cd /home/pi/Desktop/CIS
+  480  sudo python cissecondsql1.py
+  481  cd /home/pi/Desktop/LUX
+  482  sudo python luxsecondsql1.py
+  483  cd /home/pi/Desktop/TIW
+  484  sudo python tiwsecondsql1.py
+  485  cd /home/pi/Desktop
+  486  sudo python tab.py
+  487  cd LUX
+  488  sudo python luxsql1.py
+  489  cd /home/pi/Desktop
+  490  cd LUX
+  491  sudo python luxsql1.py
+  492  cd /home/pi/Desktop/CIS/
+  493  sudo python cissql1.py
+  494  cd /home/pi/Desktop/TIW
+  495  sudo python tiwsql.py
+  496  mysql -u root -p
+  497  cd /home/pi/Desktop/
+  498  sudo python asc.py
+  499  cd /home/pi/Desktop/TIW
+  500  sudo python tiwsql.py
+  501  cd /home/pi/Desktop/TIW
+  502  sudo python tiwsql.py
+  503  sudo ./a.out
+  504  sudo python tiwsql.py
+  505  cd /home/pi/Desktop/LUX
+  506  sudo python luxsql1.py
+  507  cd /home/pi/Desktop/LUX
+  508  sudo python luxsecondsql1.py
+  509  cd /home/pi/Desktop/CIS
+  510  sudo python cissql1.py
+  511  cd /home/pi/Desktop/CIS
+  512  sudo python cissecondsql1.py
+  513  cd /home/pi/Desktop
+  514  cd TIW
+  515  sudo python tiwsecondsql1.py
+  516  sudo nano hello.py
+  517  cd /home/pi/Desktop
+  518  sudo nano hello.py
+  519  ls
+  520  sudo nano .bashrc
+  521  cd /home/pi
+  522  sudo nano .bashrc
+  523  uptime
+  524  pwd
+  525  ls
+  526  info
+  527  df
+  528  arch
+  529  free
+  530  free -m
+  531  ps top
+  532  ps
+  533  top
+  534  netstat
+  535  cd /home/pi/Desktop/LUX
+  536  sudo python luxsecondsql1.py
+  537  uptime
+  538  mysql -u root -p
+  539  cd /home/pi/Desktop/CIS
+  540  sudo python cissecondsql1.py
+  541  cd /home/pi/DEsktop/CIS
+  542  cd /home/pi/Desktop/CIS
+  543  sudo python cissql1.py
+  544  cd /home/pi/Desktop/TIW
+  545  sudo python tiwsql.py
+  546  cd /home/pi/Desktop/LUX
+  547  sudo python luxsql1.py
+  548  cd /home/pi/Desktop/TIW
+  549  sudo python tiwsecondsql1.py
+  550  cd /home/pi/Desktop/LUX
+  551  sudo python luxsecondsql1.py
+  552  mysql -u root -p
+  553  cd /home/pi/Desktop/Boinc
+  554  sudo boinc_7.2.42_i686-pc-linux-gnu.sh
+  555  sudo ./boinc_7.2.42_i686-pc-linux-gnu.sh
+  556  chmod +x boinc_7.2.42_i686-pc-linux-gnu.sh
+  557  ./boinc_7.2.42_i686-pc-linux-gnu.sh
+  558  cd BOINC
+  559  ./binstall.sh
+  560  chmod +x binstall.sh
+  561  ./binstall.sh
+  562  cd /home/pi/Desktop/TIW
+  563  sudo python tiwsecondsql1.py
+  564  cd /home/pi/Desktop/CIS
+  565  sudo python cissecondsql1.py
+  566  cd /home/pi/Desktop/LUX
+  567  sudo python luxsecondsql1.py
+  568  cd /home/pi/Desktop/Boinc/BOINC
+  569  sudo ./boinc
+  570  ./boinc
+  571  cd "/home/pi/Desktop/Boinc/BOINC" && exec ./boinc $@
+  572  cd "/home/pi/Desktop/Boinc/BOINC" && exec ./boincmgr $@
+  573  ./boinc
+  574  ./boinccmd
+  575  ./boincmgr
+  576  sudo /.boinc
+  577  sudo ./boinc
+  578  sudo aptitude install boinc-client boinc-manager
+  579  vcgencmd measure_temp
+  580  sudo aptitude install boinc-client boinc-manager
+  581  sudo aptitude remove boinc-client boinc-manager
+  582  sudo aptitude install boinc-client boinc-manager
+  583  shoutdown
+  584  shutdown
+  585  shutdown 1
+  586  sudo shutdown 1
+  587  sudo shutdown -c 1
+  588  history > /home/pi/Desktop historiakomend.txt
+  589  history > historiakomend.txt

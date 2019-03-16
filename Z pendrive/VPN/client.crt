@@ -1,0 +1,62 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 17527 (0x4477)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=PL, ST=Malopolska, L=Krakow, O=AGH, OU=UCI, CN=vpn.agh.edu.pl/emailAddress=bogdan@agh.edu.pl
+        Validity
+            Not Before: Oct 31 17:25:01 2017 GMT
+            Not After : Jan  1 17:25:01 2019 GMT
+        Subject: C=PL, ST=Malopolska, O=AGH, OU=UCI, CN=pzwolak@student.agh.edu.pl/emailAddress=pzwolak@student.agh.edu.pl
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:b6:f8:87:e7:97:49:c5:a7:10:50:d0:67:e2:da:
+                    91:1c:bc:4d:21:3e:63:de:0e:30:b3:7b:84:0a:e5:
+                    8c:fe:84:f8:57:bf:9f:e8:ba:6d:8a:ad:8b:2b:4f:
+                    51:e9:5b:69:11:78:fd:48:74:c3:41:ee:90:cb:c9:
+                    48:be:b5:8b:e5:2c:7e:4e:a9:68:5c:5b:bc:40:5e:
+                    f1:46:c9:34:8a:48:60:d2:6b:e9:77:53:45:fd:ae:
+                    55:35:ad:f4:5d:c7:d6:4d:2a:07:2f:0c:d7:9b:81:
+                    63:9d:b6:c5:4e:c4:d9:30:37:d4:d4:89:53:50:ed:
+                    37:1d:d4:49:e7:46:0a:1a:45
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                B5:09:0E:02:22:CD:70:92:37:22:50:F5:E9:10:CA:E6:F6:DD:90:46
+            X509v3 Authority Key Identifier: 
+                keyid:79:4C:DC:03:73:DF:EC:50:0D:98:89:2B:E7:F5:48:4A:6A:DA:BA:59
+
+    Signature Algorithm: sha1WithRSAEncryption
+         1d:a4:96:04:5a:cd:7c:e9:3a:21:11:55:c4:e0:bf:d8:88:b8:
+         c9:7c:15:79:5d:f9:16:55:29:a3:f4:63:ac:d2:5e:03:81:da:
+         0a:98:63:94:3e:dd:59:ff:d0:ec:69:c9:21:9c:90:61:11:22:
+         cd:cf:5b:15:c3:55:a2:aa:1d:9f:11:58:fd:3a:fa:d2:ba:0b:
+         57:c7:ce:de:a9:ef:f0:1c:e3:ec:01:43:0e:83:62:b4:ce:aa:
+         c5:5a:2c:37:5a:84:b9:71:c9:5b:6f:44:00:63:d8:22:d3:69:
+         90:af:47:7d:c9:d2:c5:09:bf:eb:cc:37:1f:43:18:2b:23:01:
+         44:1d
+-----BEGIN CERTIFICATE-----
+MIIDDDCCAnWgAwIBAgICRHcwDQYJKoZIhvcNAQEFBQAwgYoxCzAJBgNVBAYTAlBM
+MRMwEQYDVQQIEwpNYWxvcG9sc2thMQ8wDQYDVQQHEwZLcmFrb3cxDDAKBgNVBAoT
+A0FHSDEMMAoGA1UECxMDVUNJMRcwFQYDVQQDEw52cG4uYWdoLmVkdS5wbDEgMB4G
+CSqGSIb3DQEJARYRYm9nZGFuQGFnaC5lZHUucGwwHhcNMTcxMDMxMTcyNTAxWhcN
+MTkwMTAxMTcyNTAxWjCBjjELMAkGA1UEBhMCUEwxEzARBgNVBAgTCk1hbG9wb2xz
+a2ExDDAKBgNVBAoTA0FHSDEMMAoGA1UECxMDVUNJMSMwIQYDVQQDFBpwendvbGFr
+QHN0dWRlbnQuYWdoLmVkdS5wbDEpMCcGCSqGSIb3DQEJARYacHp3b2xha0BzdHVk
+ZW50LmFnaC5lZHUucGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALb4h+eX
+ScWnEFDQZ+LakRy8TSE+Y94OMLN7hArljP6E+Fe/n+i6bYqtiytPUelbaRF4/Uh0
+w0HukMvJSL61i+Usfk6paFxbvEBe8UbJNIpIYNJr6XdTRf2uVTWt9F3H1k0qBy8M
+15uBY522xU7E2TA31NSJU1DtNx3USedGChpFAgMBAAGjezB5MAkGA1UdEwQCMAAw
+LAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0G
+A1UdDgQWBBS1CQ4CIs1wkjciUPXpEMrm9t2QRjAfBgNVHSMEGDAWgBR5TNwDc9/s
+UA2YiSvn9UhKatq6WTANBgkqhkiG9w0BAQUFAAOBgQAdpJYEWs186TohEVXE4L/Y
+iLjJfBV5XfkWVSmj9GOs0l4DgdoKmGOUPt1Z/9DsackhnJBhESLNz1sVw1Wiqh2f
+EVj9OvrSugtXx87eqe/wHOPsAUMOg2K0zqrFWiw3WoS5cclbb0QAY9gi02mQr0d9
+ydLFCb/rzDcfQxgrIwFEHQ==
+-----END CERTIFICATE-----
